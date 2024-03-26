@@ -3,10 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri in modo in modo facile.">
+    <title>Sviluppo di una pagina web- Blog Epicode</title>
 </head>
 <body>
-    <p> come va</p>
-    
+    <header>
+        <img src="./img/logo.svg" alt="Logo di Epicode">
+        <h1>Epicode il blog dei developers</h1>
+    </header>
+    <nav>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">Articoli</a></p>
+        <p><a href="#">Lavora con noi</a></p>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <h2>Come creare un template per i post</h2>
+                <h5><strong>di Mario rossi &copy;- pubblicato 25-10-2020</strong></h5>
+            </article>
+        </section>    
+            <article>
+              <p>
+                    La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le <br>
+                    pagine.
+                </p>
+                <p>
+                    <b>
+                      le varie aree saranno quindi suddivise in:
+                    </b>
+
+                </p>
+                <ul>
+                    <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+                    <li>Contenuti centrali variabili del tag &lt;main&gt;</li>
+                    <li>Contenuti del fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
+                </ul>
+            </article>
+            <article>
+                <h4>Formattazione del codice</h4>
+                <p>
+                    Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. perciò i passi <br>
+                    saranno:
+                </p>
+                <ol>
+                    <li>Proggettare il markup assegnato ad ogni specifico testo il tag appropriato</li>
+                    <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                    <li>Applicare gli stili CSS</li>
+                </ol>
+            </article>
+            <article>
+                <p><em><b>L'applicazione di Stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</b></em></p>
+            </article> 
+            <table>
+                <caption><strong>Diffusione dei CSS</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Anno</th>
+                        <th>% di utilizzo </th>
+                        <th>Supporto browser</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2000</td>
+                        <td>20%</td>
+                        <td>17%</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>35%</td>
+                        <td>22%</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>45%</td>
+                        <td>42%</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>80%</td>
+                        <td>51%</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>100%</td>
+                        <td>76%</td>
+                    </tr>
+                                     
+                </tbody>
+            </table> 
+         <p>
+            Un test di validazione potrà essere fatto tramite il <a href="https://corsidia.com/materia/web-design/caratterispecialihtml">tool online</a> dedicato allo scopo. Una volta <br>
+            ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
+         </p> 
+         <iframe width="319" height="567" src="https://www.youtube.com/embed/5qHHm7ooavo" title="Programmer vs Graphic Designer | Coder vs Designer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+          
+    </main>
+    <form action="#">
+        <fieldset>
+            <legend>Vuoi rimanere aggiornato su altre novità del blo? Iscriviti alla nostra <b>newsletter</b> </legend>
+            <label for="fname">insirisci l'email</label><br>
+            <input type="text" id="fname" name="la tua mail" placeholder="ex mariorossi@gmail.com">
+            <input class="styled" type="button" value="Iscriviti!"/>
+        </fieldset>
+    </form>
+    <aside>
+        <p>Articoli correlati <br> Validare il codice HTML <br> CAtegoria: develope <br> Data: 18-9-2020</p>
+        <p>Correggere la sintassi <br> CAtegoria: develop <br> Data 16-9-2020</p>
+        <p>Meno kb nella pagina <br> categoria: ottimizzazione <br> Data: 30-9-2020</p>
+    </aside>
+    <footer>
+        <p>Blog Epicode &copy;2023<br> Testata online Mario Rossi, registrata con prot.n.213 / 2018 via luigi enauidi milano</p>
+        <p><a href="mailto:hege@example.com">info@epicode.school</a></p>
+    </footer>
 </body>
 </html>
