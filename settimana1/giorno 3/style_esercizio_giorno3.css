@@ -1,86 +1,85 @@
-#contenitore1{
+/*********************************header**************************************/
+header{
+    text-align: center;
     margin: 0 auto;
-    width: fit-content;
-    text-align: justify;
-    }
-
-
-/**** header****/
-header img {
+}
+header img{
     width: 130px;
-    display: block;    
     margin: 0 auto;
-    border-bottom: 1px solid yellow;
-    text-align: center;
+    padding-bottom: 0px;
 }
-
-header h5 {
-    color: rgb(32, 85, 32);
-    text-align: center;
-    font-size: xx-small;
+h5{
+    border-top: 1px solid yellow;
+    margin-top: 0 auto;
+    padding-top: 10px;
+    color: rgb(30, 73, 30) ;
 }
-
-header h5 span{
+header h5 span {
     font-weight: bold;
-    font-size: larger;
 }
-
-/***** main****/
-
+/********************************** main************************************/
 main{
-    margin: 0 auto;
-    padding: 0 auto;
-}
-
-h1 {
     text-align: center;
-    font-size: x-large;
-    color: black;
+    margin:0 auto;
+    width: 700px;
 }
-
-h4{
-    font-size: large;
-    font-style: italic;
+main p{
+    text-align: justify;
 }
-
-main section article p {
-    text-align: justify;      
-}
-
-.titoli_lista{
-
-    font-size: large;
-    font-weight: bold;
-    text-indent: 20px;
-}
-
-figure img {
-    padding-left: 10%;
-    padding-right: 10%;
-    border-radius: 15px;
-}
-
-figcaption p {
+ /***************************immagine del main******************************/
+#focacciaimg{
     text-align: center;
-    color: gray;
-    padding-left: 45%;
-    margin-top: 0%;
-    margin-bottom: 10%;
+    width: 700px
 }
-
-p#paragrafospe{
+#focaccia{
+    width: 100%;
+}
+figcaption p{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.947);
+    margin-top: 0px;
+}
+/*******************paragrafi restanti del main e liste*********************/
+#paragrafospe{
     color: orange;
-    text-decoration: solid;
+    margin-top: 40px;
 }
-
-main dl dt{
-    text-indent: 15px;
+.titoli{
+    font-size: larger;
+    text-align: justify;
+    border-bottom: 1px solid rgb(67, 194, 203);
+    margin-top: 40px;
 }
-
+.titoli_lista{
+    font-weight: bold;
+    font-size: smaller;
+}
+article ul{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+/****************** modifice layout dl*************************************/
+dl dt{
+    text-align: justify;
+    text-indent: 30px;
+}
 #layout {
     font-weight: bold;
+    font-size: small;
 }
-
-#layout span{
+#layout span {
     font-size: x-small;
 }
+/********************************foooter*******************************/
+#footer{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+footer p{
+    text-align: justify;
+    margin-top: 40px;
+}
+
+
+
