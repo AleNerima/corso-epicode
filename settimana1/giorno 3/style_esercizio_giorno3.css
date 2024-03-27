@@ -1,6 +1,8 @@
 #contenitore1{
     margin: 0 auto;
+    padding: 0 auto;
     width: fit-content;
+    text-align: justify;
     }
 
 
