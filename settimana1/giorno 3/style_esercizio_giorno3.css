@@ -1,0 +1,79 @@
+#contenitore1{
+    margin: 0 auto;
+    width: fit-content;
+    }
+
+
+/**** header****/
+header img {
+    width: 130px;
+    display: block;    
+    margin: 0 auto;
+    border-bottom: 1px solid yellow;
+    text-align: center;
+}
+
+header h5 {
+    color: rgb(32, 85, 32);
+    text-align: center;
+    font-size: xx-small;
+}
+
+header h5 span{
+    font-weight: bold;
+    font-size: larger;
+}
+
+/***** main****/
+
+main{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+h4{
+    font-size: large;
+    font-style: italic;
+}
+
+main section article p {
+    text-align: justify;      
+}
+
+.titoli_lista{
+
+    font-size: large;
+    font-weight: bold;
+    text-indent: 20px;
+}
+
+figure img {
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 15px;
+}
+
+figcaption p {
+    text-align: center;
+    color: gray;
+    padding-left: 45%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+p#paragrafospe{
+    color: orange;
+    text-decoration: solid;
+}
+
+main dl dt{
+    text-indent: 15px;
+}
+
+#layout {
+    font-weight: bold;
+}
+
+#layout span{
+    font-size: x-small;
+}
