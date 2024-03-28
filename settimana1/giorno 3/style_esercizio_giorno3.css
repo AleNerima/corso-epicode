@@ -33,6 +33,7 @@ main p{
 }
 #focaccia{
     width: 100%;
+    border-radius: 15%;
 }
 figcaption p{
     text-align: center;
