@@ -1,0 +1,107 @@
+/* IMPOSTAZIONI GENERALI */
+/******************imposto layout generale contentori*******************/
+*{
+    box-sizing: border-box;
+}
+body { 
+    background-image: url('../img/sfondo.png');
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+}
+
+/******************imposto la grandezza delle varie colonne e righe************/
+.col-1 {width: 100%;
+height: auto;
+background-color: white;}
+.row{ border: 1px solid red;
+    margin: 2% ; 
+    background-color: white;
+}
+
+/* HEADER */
+header{
+    text-align: center;
+    background-color: rgb(11, 132, 168);
+    height:300px;
+    overflow: hidden;
+}
+header img{
+    width: 250px;
+}
+figcaption{
+    margin-top: 1%;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+nav{
+    margin-top: 5%;
+}
+nav p{
+    margin-top: 1%;
+    color: white;    
+}
+nav p a{
+    text-decoration: none;
+    color: white;
+}
+/* MAIN */
+/********************sfondo main container*************/
+main{    
+    height: auto;
+}
+/**********************testo art1 formattazione***************/
+article{
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+       
+}
+#art1{
+    text-align: justify;
+
+}
+h1{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+main article p{ 
+    line-height: 1.5em;
+
+}
+
+ul{
+    list-style: circle;
+    padding-left: 5%;
+    margin: 3% 0%;    
+}
+ol{
+    list-style: decimal;
+    padding-left: 5%;
+    margin: 3% 0%;
+}
+/********************tabella***************/
+#tabella{
+    padding-left: 30%;
+    margin-top: 6%;
+ }
+ caption{
+    margin-bottom: 1em;
+ }
+ .righe{
+    
+ }
+
+
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
