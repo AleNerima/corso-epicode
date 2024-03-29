@@ -1,0 +1,198 @@
+/****************** formattazione generale layout pagian*********************************/
+*{
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+header{
+    line-height: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+body{
+    line-height: 1.65em;
+    font-family:"Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
+
+/********************** formattazione Header************/
+header{
+    text-align: center;
+}
+header div{
+    margin: 1% 25%;
+    
+}
+#logo{
+    background-color: black;
+}
+#logo img{
+    width: 140px;
+    margin: 0em 10em 2em 5em;    
+}
+#testo{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+/************************* testo header***************/
+#testo h1{
+    color: #25a2c3 ;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    margin: 10% 20% 7%;
+}
+/*****************form************************/
+#testo p{
+    margin: auto 20% 7%;
+}
+#testo form button{
+    background-color: #f04c2f ;
+    border:none;
+    border-radius: 8%;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 7%;
+    height: 30px;
+}
+/***************************MAIN***************************/
+
+main{
+    text-align: center;
+}
+article{
+    margin: 0% 25%;
+}
+/******************formattazione immagine main*******************/
+#imgmain{    
+    border-radius: 100%;
+    width: 30%;
+    margin: 5% 35%;
+    overflow: hidden;
+}
+article div img{
+    width: 100%;       
+}
+/***********************prima sezione main*****************/
+#sezione1 h2{
+    color: #25a2c3;
+    font-size: large;
+    font-weight: bold;
+    margin: 10% 20% 7%;
+
+}
+#sezione1 p{
+    margin-bottom: 15%;
+}
+
+#separazione{
+    margin-bottom: 1%;
+}
+
+/***********************seconda sezione main*************/
+#secondasezione{
+    background-color: #e22d0e;
+    padding: 8% 0% 6%;
+}
+#secondasezione h2{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-size: larger;
+    margin: 10% 20% 7%;
+}
+#secondasezione p{
+    font-style: italic;
+    margin-bottom: 5% ;
+    color: white;
+    font-weight: lighter;   
+}
+#secondasezione h3{
+    color: white;
+    font-weight: bold;
+}
+/*********************** aside************************/
+aside{
+    margin: 0% 25%;    
+}
+
+.asidepart{
+    border: 2px solid #dee1e3;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    width: 75%;
+    margin: 12.5% 12.5%; 
+    background-size: contain;
+    overflow: hidden;
+          
+}
+.imgaside{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    overflow: hidden; 
+}
+
+#foto1{
+    background-image: url(../images/foto1.jpg);
+    background-repeat: no-repeat;  
+}
+#foto2{
+    background-image: url(../images/foto2.jpg);
+    background-repeat: no-repeat;
+}
+#foto3{
+    background-image: url(../images/foto3.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/*********************** formattazione testi aside*****************/
+aside h2{
+    color: #25a2c3;
+    font-size: large;
+    font-weight: bold;
+    margin: 10% 20% 7%;
+}
+aside p{
+    margin-bottom: 5%;
+}
+/**************************footer**************************/
+footer{
+    background-color:#25a2c3;
+    text-align: center;
+    margin: 1% 25% 5%;   
+    color: white;
+}
+/********************formattazione testi footer****************/
+footer h2{ 
+    font-size: large;
+    font-weight: bold;
+    margin: 7% 20% 7%;
+    padding-top: 10%;
+}
+
+footer p{
+    margin: 3% 0% 3%
+}
+#finale{
+    padding-bottom: 10%;
+}
+

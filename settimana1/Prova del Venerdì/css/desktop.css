@@ -1,0 +1,153 @@
+/****************** formattazione generale layout pagian*********************************/
+*{
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+header{
+    line-height: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    text-align: center;
+}
+body{
+    line-height: 1.65em;
+    font-family:"Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    text-align: justify;
+}
+/*******************header*************/
+#logo{
+    background-color: black;
+    height: 4em;
+    text-align: left;
+}
+#logo img{
+    padding-top: 0.6em;
+    width: 9em;
+}
+#testo{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:40em ;
+}
+/********************* Testo header********************/
+#testo h1{
+    color: #25a2c3 ;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    padding-top:7em;
+    padding-bottom: 4em;
+}
+#testo p{
+    padding-top: 7em;
+    padding-top:1.5em;
+    padding-bottom: 4em;
+}
+/*******************bottone*****************/
+#testo form button{
+    background-color: #f04c2f ;
+    border:none;
+    border-radius: 8%;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 7%;
+    height: 30px;
+}
+
+/************************MAIN********************/
+/*************sezione1*****************/
+#sezione1{
+    display: table;
+}
+#maintext{
+    float: right;
+    margin-top: 8em;
+    margin-left: 5em;
+}
+#imgmain{
+    float: left;
+    margin-left: 6em;
+}
+#imgmain img{
+    border-radius: 100%;
+}
+/************************sezione2******************/
+#secondasezione{
+    background-color: #e22d0e;
+    text-align: center;
+}
+/******************* testo main***********************/
+#maintext h2{
+    color: #25a2c3;
+    font-size: large;
+    font-weight: bold;        
+}
+#secondasezione h2{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 3em;
+}
+#secondasezione p{
+    font-style: italic;
+    padding-top: 1em;
+    color: white;
+    font-weight: lighter;
+    padding-bottom: 3em;   
+}
+#secondasezione h3{
+    color: white;
+    font-weight: bold;
+    padding-top: 3em;
+}
+/************************aside********************/
+aside{
+    display: table;
+    padding-left: 14em;
+}
+.immagini img{
+    width: 20em;
+}
+.asidepart{
+    float: left;
+    border: 2px solid #dee1e3;
+    border-end-end-radius: 5%;
+    border-bottom-left-radius: 5%;
+    margin: 4em 1em 4em 1em;
+    width: 20em;
+    height: 20em;
+}
+/**********************aside testo*******************/
+aside h2{
+    color: #25a2c3;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+/**********************FOOTER***********************/
+footer{
+    background-color:#25a2c3;
+    text-align: center;      
+    color: white;
+}
+
+
