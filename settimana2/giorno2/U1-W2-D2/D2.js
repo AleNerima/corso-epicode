@@ -46,10 +46,9 @@ if(totalShoppingCart>50){console.log(totalShoppingCart)} else {console.log(total
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
-let day= new Date("3/4/2024")
-const SCONTO= "3/4/2024"
-if((day=SCONTO)&& (totalShoppingCart>50)) {console.log(totalShoppingCart*0.8)}
-if((day=SCONTO)&&(totalShoppingCart<50)){console.log((totalShoppingCart+10)*0.8)}
+var blackfriday= totalShoppingCart*0.8
+if((totalShoppingCart>50)) {console.log(blackfriday)}
+if((totalShoppingCart<50)){console.log ( blackfriday+10)}
 
 
 
