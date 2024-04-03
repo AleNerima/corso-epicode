@@ -73,7 +73,6 @@ var name1 ="john";
 var name2 = "John";
 var minuscolo= name2.toLowerCase();
 console.log(minuscolo)
-alert(name1 === name2)
-alert(name1=== minuscolo)
-console.log(name1==name2)
-console.log(name1==minuscolo)
+var risultato = (name1===name2)? "vero": "falso"; var risultato2 = (name1===minuscolo)?"vero":"falso"
+console.log(risultato)
+console.log (risultato2)
