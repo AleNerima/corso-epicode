@@ -180,7 +180,7 @@
       const makeItClickable = function () {
         const titolo = document.querySelector('h1')
         titolo.onclick = function () { 
-          titolo.innerText = 'Titolo del Test'             
+          titolo.innerText = 'Titolo del Test';
         }
       }
       makeItClickable()
@@ -189,9 +189,10 @@
        Crea una funzione che, al click sul footer, riveli l'URL del link interno come contenuto di un alert()
       */
 
-      const revealFooterLink = function (content) {
+      const revealFooterLink = function () {
         const footer = document.querySelector('footer')        
         footer.onclick = function () {
+         
           const link = document.querySelector('footer a')
           let url = link.getAttribute('href')
           alert(url)
