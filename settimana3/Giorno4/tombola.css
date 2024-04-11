@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    align-items: center;
+}
+#tabellone{
+    height: 5em;
+    width: 60%;
+    margin: auto 20%;
+    border: 2px solid black;
+}
